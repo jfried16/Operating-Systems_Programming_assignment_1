@@ -7,3 +7,6 @@ In order to run this program, follow these these steps.
 ## Prerequisites 
   - Compiled on Ubuntu 20.04.3
   - g++
+```bash
+sudo apt-get install g++
+```
