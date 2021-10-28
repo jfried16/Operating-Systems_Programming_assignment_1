@@ -1,5 +1,5 @@
 # Operating Systems Programming Assignment 1
-In this assignment we used semaphores and shared memory, to handle the producer-consumer problem
+In this assignment we used semaphores and shared memory, to handle the producer-consumer problem. The producer produces 20 items into a shared table, meanwhile the consumer is consuming items from that table. The table's maximum size is two. 
 
 # Getting Started
 In order to run this program, follow these these steps.
@@ -10,18 +10,19 @@ In order to run this program, follow these these steps.
 ```bash
 sudo apt-get install g++
 ```
-## To Run the Code Yourself
+## Installation
   - 1. Clone the repo 
   ```bash
   URL: https://github.com/jfried16/Operating-Systems_Programming_assignment_1.git
   ```
-  - 2. Use g++ to Compile the Program
+## To Run the Code for Yourself
+  - 1. Use g++ to Compile the Program
   ```bash
   g++ producer.cpp -pthread -lrt -o producer
   g++ consumer.cpp -pthread -lrt -o consumer
   ./producer & ./consumer &
   ```
-  - 3. When the program is done running
+  - 2. When the program is done running
    ```bash
    ctrl + c
    ```
@@ -199,3 +200,10 @@ Consumer cleaned up!
 [1]-  Done                    ./producer
 [2]+  Done                    ./consumer
 ```
+## Built Using
+ - Visual Sutdio Code 1.61.2 - programming environment
+ - g++ 9.3.0 - compilation
+ - Ubuntu 20.04.3 - operating system
+ ## Acknowledgements
+ My Operating Systems professor - Dr. Qiang Guan
+ 
