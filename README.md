@@ -20,9 +20,12 @@ sudo apt-get install g++
   ```bash
   g++ producer.cpp -pthread -lrt -o producer
   g++ consumer.cpp -pthread -lrt -o consumer
+  ```
+  - 2. To Run the Program
+  ```bash
   ./producer & ./consumer &
   ```
-  - 2. When the program is done running
+  - 3. When the program is done running
    ```bash
    ctrl + c
    ```
