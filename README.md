@@ -210,7 +210,7 @@ Consumer cleaned up!
  - g++ 9.3.0 - compilation
  - Ubuntu 20.04.3 - operating system
  ## Acknowledgements
- - Dr. Qiang Guan - My operating systems professor, seeing his code showed me the syntax required to open shared memory and use semaphores. 
+ - Dr. Qiang Guan - My operating systems professor, seeing his code showed me the syntax required to open and close shared memory and use semaphores. 
  - URL: https://man7.org/linux/man-pages/dir_all_alphabetic.html - Used for reference
  - URL: https://www.youtube.com/watch?v=ukM_zzrIeXs - Used for reference
  
