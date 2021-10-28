@@ -201,7 +201,7 @@ Consumer cleaned up!
 [2]+  Done                    ./consumer
 ```
 ## Code Written by
-Joshua Friedman
+- Joshua Friedman
 ## Built Using
  - Visual Sutdio Code 1.61.2 - programming environment
  - g++ 9.3.0 - compilation
